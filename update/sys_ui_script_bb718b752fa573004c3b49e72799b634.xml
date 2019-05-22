@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_26127_traveldesk.TestUIS</name>
+        <script><![CDATA[var x_26127_traveldesk = x_26127_traveldesk || {};
+
+x_26127_traveldesk.TestUIS = (function() {
+	alert("test");
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_26127_traveldesk.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_26127_traveldesk.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "TestUIS"
+	};
+})();
+]]></script>
+        <script_name>TestUIS</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-22 04:59:27</sys_created_on>
+        <sys_id>bb718b752fa573004c3b49e72799b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_26127_traveldesk.TestUIS</sys_name>
+        <sys_package display_value="TravelDesk" source="x_26127_traveldesk">696fee352f6573004c3b49e72799b66a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TravelDesk">696fee352f6573004c3b49e72799b66a</sys_scope>
+        <sys_update_name>sys_ui_script_bb718b752fa573004c3b49e72799b634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-22 04:59:27</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>
