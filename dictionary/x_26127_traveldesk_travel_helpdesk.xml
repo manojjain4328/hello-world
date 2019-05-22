@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Travel HelpDesk" max_length="40" name="x_26127_traveldesk_travel_helpdesk" type="collection"/>
+</database>
