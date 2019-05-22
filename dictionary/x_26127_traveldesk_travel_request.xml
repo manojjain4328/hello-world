@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Travel Request" max_length="40" name="x_26127_traveldesk_travel_request" type="collection">
+        <element label="Travel From" max_length="40" name="travel_from" type="string"/>
+    </element>
+</database>
